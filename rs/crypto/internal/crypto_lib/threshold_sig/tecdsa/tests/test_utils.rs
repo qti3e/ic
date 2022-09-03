@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 use ic_crypto_internal_threshold_sig_ecdsa::*;
 use ic_types::crypto::canister_threshold_sig::MasterEcdsaPublicKey;
 use ic_types::crypto::AlgorithmId;

@@ -55,3 +55,7 @@ harness = false
 [[bench]]
 name = "group_ops"
 harness = false
+
+[[bench]]
+name = "sign"
+harness = false

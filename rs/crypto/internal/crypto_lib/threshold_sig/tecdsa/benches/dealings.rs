@@ -44,6 +44,10 @@ fn dealings(c: &mut Criterion) {
     c.bench_function("create_dealing(Random, 5/9)", |b| {
         b.iter(|| create_random_dealing(5, 9))
     });
+
+    c.bench_function("create_dealing(Random, 11/29)", |b| {
+        b.iter(|| create_random_dealing(11, 29))
+    });
 }
 
 criterion_group!(benches, dealings);
